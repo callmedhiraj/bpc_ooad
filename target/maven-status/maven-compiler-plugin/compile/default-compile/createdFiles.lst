@@ -1,3 +1,6 @@
+com\mycompany\bpc\LabManual.class
+com\mycompany\bpc\Book.class
+com\mycompany\bpc\TestPedagogy.class
 com\mycompany\bpc\Teacher.class
-com\mycompany\bpc\TestAssignment.class
+com\mycompany\bpc\TeachingNote.class
 com\mycompany\bpc\Assignment.class
