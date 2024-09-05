@@ -18,5 +18,9 @@ public class ConcreteClass extends Pedagogy {
     public void secretTeacher(){
         System.out.println("I am a secret teacher teaching livlihood with books.");
     }
+    @Override
+    public void anotherMethod(){
+        //do nothing
+    }
     
 }

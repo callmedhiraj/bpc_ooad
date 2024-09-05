@@ -8,12 +8,22 @@ package com.mycompany.bpc;
  *
  * @author LENOVO
  */
-public  abstract class Pedagogy {
-    public abstract void teachingMethod();
-    public abstract void anotherMethod();
-    //some method that has some definition.
-    public void counselling(){
-        System.out.println("Couselling is Key!");
+public class B {
+    private int myBVal;
+
+    public B(int myBVal) {
+        this.myBVal = myBVal;
+    }
+
+    public B() {
+    }
+
+    public int getMyBVal() {
+        return myBVal;
+    }
+
+    public void setMyBVal(int myBVal) {
+        this.myBVal = myBVal;
     }
     
 }

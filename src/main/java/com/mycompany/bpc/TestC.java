@@ -8,12 +8,14 @@ package com.mycompany.bpc;
  *
  * @author LENOVO
  */
-public  abstract class Pedagogy {
-    public abstract void teachingMethod();
-    public abstract void anotherMethod();
-    //some method that has some definition.
-    public void counselling(){
-        System.out.println("Couselling is Key!");
+public class TestC {
+    public static void main(String[] args) {
+        //instantiate the C class
+        C objC = new C();
+        objC.showData();
+        objC.showDataFromD();
+        
+        
     }
     
 }
